@@ -2,7 +2,14 @@
 
 int main(void)
 {
-  printf("Hello World");
+    double x, y;
 
-  return 0;
+    printf("x : ");
+    scanf("%lf", &x);
+    printf("y : ");
+    scanf("%lf", &y);
+
+    printf("%f \n", x + y);
+    printf("%f \n", x / y);
+    printf("%f \n", x % y);
 }
